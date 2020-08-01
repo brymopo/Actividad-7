@@ -1,0 +1,10 @@
+$enable-responsive-font-sizes:true;
+$theme-colors: (
+  "primary": #212529,
+  "warning": #FE5F00,
+  "secondary":#3F88C5,
+  "info":#ee6e73
+);
+
+
+@import "../bootstrap-4.5.0/scss/bootstrap"

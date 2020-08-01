@@ -1,0 +1,66 @@
+body{
+    background: #212529;
+}
+
+.home_historia{
+    height: 100vh;
+    position: relative;
+}
+
+.parallax-container {
+    height: 90vh;    
+}
+
+#hero{
+    max-width: 100%;
+    position: absolute;
+    left: 5%;
+    bottom: 35%;
+    top:35%;    
+}
+
+#hero>h1{
+    font-size: 3.2rem;
+}
+
+#enfermedades_definicion>p.flow-text{
+    text-align: justify;
+}
+
+.color-secondary{
+    color:#3F88C5;
+}
+
+.color-warning{
+    color: #FE5F00;
+}
+
+.color-info{
+    color: #ee6e73;
+}
+
+.footer-icon{
+    font-size: 2rem;
+    display: inline-block; 
+    margin: 0 0.75rem;       
+}
+
+.padding-y{
+    padding: 1.5rem 0;
+}
+
+
+
+@media only screen and (max-width : 992px) {
+    .parallax img {
+      max-height: 130%; /* or a little bit higher */
+    }
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .parallax img {
+      max-height: 170%; /* or higher percentages. It's up to your taste */
+    }
+  }
+
+ 
